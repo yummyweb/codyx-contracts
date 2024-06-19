@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+buidlsmart_solana = "F7bexaSMuX7AwAhJ6kU29mUdWhVkFovMMDDuDgNw2Rkm"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/antarikshverma/.config/solana/id.json"
+
+[scripts]
+test = "node tests/buidlsmart-solana.js"
